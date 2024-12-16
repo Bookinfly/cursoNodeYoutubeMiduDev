@@ -1,0 +1,14 @@
+
+###Pedir info de ditto
+GET http://localhost:1234/pokemon/ditto
+
+###Crear Pokemon
+POST http://localhost:1234/pokemon
+Content-Type:  application/json
+
+{
+    "name": "Pikachu",
+    "type": [
+        "placaje", "spark"
+    ]
+}
