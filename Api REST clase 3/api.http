@@ -1,0 +1,14 @@
+GET http://localhost:1234/movies
+GET http://localhost:1234/movies/1
+GET http://localhost:1234/movies?genre=Action
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "The Goodfather",
+    "year": 1975,
+    "director": "Francis For Coppola",
+    "duation": 175,
+    "poster": "Https://img.fruugo.com/product/4/14441494_max.jpg",
+    "genre": ["Crime", "Drama"]
+}
